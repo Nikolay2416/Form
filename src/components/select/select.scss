@@ -1,0 +1,76 @@
+.select {
+  width: 227px;
+  height: 30px;
+
+  &_body {
+
+    &_header {
+      height: 30px;
+      padding-top: 10px;
+      padding-left: 13px;
+      font-size: 13px;
+      border: 1px solid #d6d6d6;
+      color: #604f4b;
+      border-radius: 3px;
+      position: relative;
+    }
+
+    &_container {
+      width: 227px;
+      margin: 0 auto;
+      position: relative;
+
+      &_items {
+        position: absolute;
+        width: 227px;
+        z-index: 10;
+        border-left: 1px solid #d6d6d6;
+        border-right: 1px solid #d6d6d6;
+        font-size: 13px;
+        background-color: #fff;
+
+        &_item {
+          height: 30px;
+          padding-top: 10px;
+          padding-left: 13px;
+          color: #604f4b;
+          border-bottom: 1px solid #d6d6d6;
+        }
+      }
+    }
+  }
+}
+
+.select_body_header-error {
+  height: 30px;
+  padding-top: 10px;
+  padding-left: 13px;
+  font-size: 13px;
+  border: 2px solid red;
+  color: red;
+  background-color: #fde9ec;
+  border-radius: 3px;
+  position: relative;
+}
+
+.arrow-down {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 10px;
+  height: 10px;
+  border-bottom: 2px solid #bababa;
+  border-right: 2px solid #bababa;
+  transform: rotate(45deg);
+}
+
+.arrow-up {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  width: 10px;
+  height: 10px;
+  border-bottom: 2px solid #bababa;
+  border-right: 2px solid #bababa;
+  transform: rotate(225deg);
+}
